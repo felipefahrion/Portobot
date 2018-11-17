@@ -1,14 +1,21 @@
-<div class="default">
-    <div style="text-align:center">
-    <h1>
-      Welcome to Portocred!
-    </h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="assets/logo.png" class="d-inline-block align-top" alt="">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://www.portocred.com.br/">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink='/chat' role="button">Peça seu crédito</a>
+      </li>
+    </ul>
   </div>
+</nav>
 
-</div>
 <div class="container">
-
-  <router-outlet></router-outlet>
-  <app-get-started></app-get-started>
-
+  <router-outlet></router-outlet>>
 </div>

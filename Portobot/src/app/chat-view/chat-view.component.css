@@ -1,36 +1,18 @@
-#coluna_lateral{
-    background-color: #203252;
-    height: 900px;
-    flex:1;
-}
+
 
 #coluna_central{
-    background-color:#a3cd3d;
+    background-color:#203252;
     flex:2;
-    height: auto;
+    height: 900px;
     
 }
 
 
-#alertas{
-    border-color: black;
-    border-radius: 50px;
-    border-width: 10;
-    width: center;
-    height: 100px; 
-    background-color: #c9f311;
-    margin: 15px;
-
-}
-
-#alerta_erro{
-    background-color: transparent;
-    
-}
 
 #chatbot{
     margin-top: 60px;
-    height: 100px;
+    height: 400px;
+    background-color:#203252
 
     
 }

@@ -1,20 +1,13 @@
-
-
 #coluna_central{
     background-color:#203252;
     flex:2;
-    height: 900px;
-    
+    height: 100%
 }
-
-
 
 #chatbot{
     margin-top: 60px;
     height: 400px;
-    background-color:#203252
-
-    
+    background-color:#203252    
 }
 
 
